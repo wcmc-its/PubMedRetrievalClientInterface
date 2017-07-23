@@ -4,6 +4,10 @@ version := "1.0"
 
 scalaVersion := "2.12.1"
 
+organization := "edu.wcmc.reciter"
+
+publishMavenStyle := true
+
 // https://mvnrepository.com/artifact/org.jboss.resteasy/resteasy-jaxrs
 libraryDependencies += "org.jboss.resteasy" % "resteasy-jaxrs" % "3.1.3.Final"
 
